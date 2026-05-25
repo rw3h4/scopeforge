@@ -1,0 +1,3 @@
+/home/rw3h4/Project/ScopeForge/scopeforge/build/CMakeFiles/scopeforge.dir
+/home/rw3h4/Project/ScopeForge/scopeforge/build/CMakeFiles/edit_cache.dir
+/home/rw3h4/Project/ScopeForge/scopeforge/build/CMakeFiles/rebuild_cache.dir
