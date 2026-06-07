@@ -59,7 +59,7 @@ float generateSample(const SignalParams& prm, float t) {
   value += peak * (prm.h5_percentage / 100.0f) * std::sin(5.0f * w * t);
   value += peak * (prm.h7_percentage / 100.0f) * std::sin(7.0f * w * t);
 
-  if (prm.noise_amplitude) {
+  if (prm.noise_amplitude > 0.0f) {
     value += prm.noise_amplitude * std::sqrt(2.0f) * gaussian(rng);
   }
 
